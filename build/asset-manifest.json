@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.98184a21.css",
+    "main.js": "/static/js/main.81ecccb3.js",
+    "static/media/BeParent.jpg": "/static/media/BeParent.0d3bc34315048068f8b5.jpg",
+    "static/media/BackofficePortal.jpg": "/static/media/BackofficePortal.32b8fc83c8440287292c.jpg",
+    "static/media/Just in Case.jpg": "/static/media/Just in Case.9818eaf81501c26333ab.jpg",
+    "static/media/ProfilePhoto.jpg": "/static/media/ProfilePhoto.0a1243ad925306289e73.jpg",
+    "static/media/CVBrunaCalado.pdf": "/static/media/CVBrunaCalado.d421214870bd3a6edb8b.pdf",
+    "static/media/bgtwo.jpg": "/static/media/bgtwo.181487f3237d7ff109fa.jpg",
+    "static/media/bg-dark.jpg": "/static/media/bg-dark.22a21299a987d11c91c0.jpg",
+    "static/media/bg.jpg": "/static/media/bg.54122ef3ac6eced211d3.jpg",
+    "static/media/previewbg.png": "/static/media/previewbg.300f33b46a224efadb0a.png",
+    "static/media/BeParent.jpeg": "/static/media/BeParent.ec69b4cf62b69af02ce2.jpeg",
+    "static/media/BackofficePortal.jpeg": "/static/media/BackofficePortal.694abc40778ca145daf7.jpeg",
+    "index.html": "/index.html",
+    "static/media/iconUI.svg": "/static/media/iconUI.d411c8875c0dd49871f0a6e1184f30e0.svg",
+    "static/media/iconUX.svg": "/static/media/iconUX.fa9762f4f7464f60bce93ae9de7bd28a.svg",
+    "main.98184a21.css.map": "/static/css/main.98184a21.css.map",
+    "main.81ecccb3.js.map": "/static/js/main.81ecccb3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.98184a21.css",
+    "static/js/main.81ecccb3.js"
+  ]
+}
