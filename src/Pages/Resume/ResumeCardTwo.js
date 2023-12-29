@@ -9,15 +9,15 @@ const ResumeCardTwo = () => {
   return (
     <>
       <div>
+        {/* <!-- Experience contain --> */}
         <div className="flex items-center space-x-2 mb-4">
           <div className="text-6xl text-[#F95054]">
             <MdOutlineBusinessCenter />
           </div>
-          <h4 className="text-5xl dark:text-white font-medium"> Education </h4>
+          <h4 className="text-5xl dark:text-white font-medium"> Experience </h4>
         </div>
-        {/* end flex */}
 
-        {educationArray.map((item) => (
+        {experiencesArray.map((item) => (
           <div
             className="py-4 pl-5 pr-3 space-y-2 mb-6 rounded-lg  dark:border-[#212425] dark:border-2"
             style={{
@@ -33,17 +33,17 @@ const ResumeCardTwo = () => {
           </div>
         ))}
       </div>
-
+      {/* Education container */}
       <div>
-        {/* <!-- Experience contain --> */}
         <div className="flex items-center space-x-2 mb-4">
           <div className="text-6xl text-[#F95054]">
             <MdOutlineSchool />
           </div>
-          <h4 className="text-5xl dark:text-white font-medium"> Experience </h4>
+          <h4 className="text-5xl dark:text-white font-medium"> Education </h4>
         </div>
+        {/* end flex */}
 
-        {experiencesArray.map((item) => (
+        {educationArray.map((item) => (
           <div
             className="py-4 pl-5 pr-3 space-y-2 mb-6 rounded-lg  dark:border-[#212425] dark:border-2"
             style={{

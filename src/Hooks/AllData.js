@@ -2,10 +2,16 @@ import { useEffect, useState } from "react";
 // for work_images
 import justincase from "../assets/images/work_images/small/JustInCase.jpeg";
 import justincaseBIG from "../assets/images/work_images/Just in Case.jpg";
-import backofficePortalBIG from "../assets/images/work_images/BackofficePortal.jpg";
+import CoverJuice from "../assets/images/work_images/CoverPressJuice.jpg";
+import SweetCard from "../assets/images/work_images/CoverCandyCard.jpg";
+import SpaceLogin from "../assets/images/work_images/CoverSpace.jpg";
+
 import beParentBIG from "../assets/images/work_images/BeParent.jpg";
 import beParent from "../assets/images/work_images/small/BeParent.jpeg";
-import backofficePortal from "../assets/images/work_images/small/BackofficePortal.jpeg";
+import SmallCoverJuice from "../assets/images/work_images/small/SmallCoverJuice.jpg";
+import SmallSweetCard from "../assets/images/work_images/small/SmallCoverSweet.jpg";
+import SmallSpaceLogin from "../assets/images/work_images/small/SmallCoverSpaceLogin.jpg";
+
 // works small images
 
 //  icon use as img here
@@ -96,7 +102,65 @@ const AllData = () => {
   const workItems = [
     {
       id: "1",
-      tag: "Professional",
+      tag: "UX/UI",
+      project: "Cold Press Juice App",
+      title: "Cold Press Juice",
+      img: CoverJuice,
+      imgSmall: SmallCoverJuice,
+      bg: "#FFF0F0",
+      client: "Personal",
+      langages: "Adobe XD",
+      link: "https://xd.adobe.com/view/0ea273bc-e259-4dab-930c-eca98076c14c-5bf1/",
+      linkText: "Juicy App Prototype",
+      descriptionTitle:
+        "A vibrant and playful mobile app for an online cold-pressed juice store. ",
+      description1:
+        "The 'Cold Press Juice App' aims to bring a fun and stylish experience to users as they explore and purchase delicious and healthy cold-pressed juices.",
+      description2:
+        "With this app, users can explore a variety of cold-pressed juice options. The shopping interface is user-friendly, allowing for easy navigation and quick purchases. Personalized profiles that enable users to track favourite juice blends, and have all their personal information saved for future purchases.",
+      description3: "",
+    },
+    {
+      id: "2",
+      tag: "UI",
+      project: "Sweet Card",
+      title: "Sweet Card",
+      img: SweetCard,
+      imgSmall: SmallSweetCard,
+      bg: "#FFF3FC",
+      client: "Personal",
+      langages: "Figma",
+      link: "https://www.figma.com/proto/wrQVgdczL478yHPC0OqCyF/Sweet-Card?page-id=0%3A1&type=design&node-id=1-2&viewport=598%2C1097%2C0.41&t=2PXhrCLfakKhcB3H-1&scaling=min-zoom&starting-point-node-id=1%3A2&mode=design",
+      linkText: "Sweet Card Prototype",
+      descriptionTitle:
+        "A sweet and simple UI project featuring candy-themed cards.",
+      description1:
+        "The card is designed with vibrant colors and a clean layout. Users can easily interact with the card, revealing more information or actions with a tap or click. The candy theme adds a delightful touch, making the UI visually appealing and fun. The goal is to provide a user-friendly and enjoyable experience while showcasing information in a tasty and engaging way.",
+      description2: "",
+      description3: "",
+    },
+    {
+      id: "3",
+      tag: "UI",
+      project: "Space Login",
+      title: "Space Login",
+      img: SpaceLogin,
+      imgSmall: SmallSpaceLogin,
+      bg: "#FFF3FC",
+      client: "Personal",
+      langages: "Figma",
+      link: "https://www.figma.com/proto/LdbdKGAjp59ujsIEQPZt1C/Space-Login?page-id=0%3A1&node-id=71-137&starting-point-node-id=19%3A1684&mode=design&t=xRt5YZWFpYYBFQDN-1",
+      linkText: "Space Login Prototype",
+      descriptionTitle:
+        "A sleek and user-friendly UI project for a login page with a space theme.",
+      description1:
+        "The design incorporates cosmic colors, futuristic fonts, and space-inspired visuals. Users encounter a smooth and intuitive login experience, aligning with the theme's futuristic vibe. The goal is to blend aesthetics and functionality, creating an out-of-this-world login interface that is both visually captivating and easy to use.",
+      description2: "",
+      description3: "",
+    },
+    {
+      id: "4",
+      tag: "UX/UI",
       project: "WebApp",
       title: "Just In Case",
       img: justincaseBIG,
@@ -106,14 +170,17 @@ const AllData = () => {
       langages: "Figma",
       link: "https://www.figma.com/proto/PBM2ULmWuNNQ6Afrsofhud/Just-in-Case?page-id=0%3A1&node-id=1-13536&viewport=1886%2C180%2C0.07&scaling=min-zoom&starting-point-node-id=1%3A13536&show-proto-sidebar=1",
       linkText: "JustInCase Prototype",
-      descriptionTitle: "Simplify the traveller's journey and insurance contracting",
-      description1: "This project was carried out with the aim of improving the web app and desktop versions of Just in Case, an on-demand insurance product from Fidelidade. The objective was to review the entire website experience in order to simplify the traveler's journey and the process of purchasing travel insurance. ",
-      description2: "To achieve this goal, a study of other similar products was conducted to identify areas that needed improvement, taking into account the inputs already shared by the business. In summary, the process of purchasing insurance was simplified to just three steps: simulation, personal information, and confirmation, making the journey simpler and more straightforward.",
+      descriptionTitle:
+        "Simplify the traveller's journey and insurance contracting",
+      description1:
+        "This project was carried out with the aim of improving the web app and desktop versions of Just in Case, an on-demand insurance product from Fidelidade. The objective was to review the entire website experience in order to simplify the traveler's journey and the process of purchasing travel insurance. ",
+      description2:
+        "To achieve this goal, a study of other similar products was conducted to identify areas that needed improvement, taking into account the inputs already shared by the business. In summary, the process of purchasing insurance was simplified to just three steps: simulation, personal information, and confirmation, making the journey simpler and more straightforward.",
       description3: "",
     },
     {
-      id: "2",
-      tag: "Academic",
+      id: "5",
+      tag: "UX/UI",
       project: "BeParent",
       title: "BeParent",
       img: beParentBIG,
@@ -123,33 +190,17 @@ const AllData = () => {
       langages: "Figma",
       link: "https://www.figma.com/proto/qz0XglQyIIIK9UZIEEJEt8/BeParent-prototype?embed_host=share&kind=&node-id=483-676",
       linkText: "BeParent Prototype",
-      descriptionTitle: "Manage the daily life of children with the help of their family and professionals.",
-      description1: "The BeParent project was developed as part of a postgraduate program in UX/UI. It is a mobile application designed for parents/caregivers of children between the ages of 5 and 12, childhood health professionals (psychologists and pediatricians), and the children themselves.",
-      description2: "The project aims to address the challenge of managing children's free time and day-to-day tasks for parents/families.",
-      description3: "To solve this problem, we conducted interviews, defined personas, utilized research methods such as card sorting, designed wireframes, created mockups, and conducted user testing.",
+      descriptionTitle:
+        "Manage the daily life of children with the help of their family and professionals.",
+      description1:
+        "The BeParent project was developed as part of a postgraduate program in UX/UI. It is a mobile application designed for parents/caregivers of children between the ages of 5 and 12, childhood health professionals (psychologists and pediatricians), and the children themselves.",
+      description2:
+        "The project aims to address the challenge of managing children's free time and day-to-day tasks for parents/families.",
+      description3:
+        "To solve this problem, we conducted interviews, defined personas, utilized research methods such as card sorting, designed wireframes, created mockups, and conducted user testing.",
     },
-    {
-      id: "3",
-      tag: "Professional",
-      project: "Backoffice Portal",
-      title: "Backoffice Portal",
-      img: backofficePortalBIG,
-      imgSmall: backofficePortal,
-      bg: "#FFF0F0",
-      client: "Fidelidade",
-      langages: "Figma",
-      link: "https://www.figma.com/proto/BWA8P1zU3JIOct138FLQ4s/Portal-de-Backoffices?page-id=0%3A1&node-id=3-20069&viewport=304%2C-2229%2C0.12&scaling=min-zoom&starting-point-node-id=3%3A20069&show-proto-sidebar=1",
-      linkText: "Backoffice Portal Prototype",
-      descriptionTitle: "Aggregate all Fidelidade's Backoffices in a single and attractive platform",
-      description1: "The Backoffices Portal project arose from the need to aggregate all Fidelidade's Backoffices in a single platform that is simple to use and attractive to employees. Initially, there was already a proposed site map made by the business, but after some research and review of it, a new information architecture was developed to make the user journey simpler.",
-      description2: "Looking for a more modern presentation and layout, and following current UX/UI trends, we arrived at an image that is within the Company's standards, more modern and current. We conducted user tests to validate the new information architecture and the current journey.",
-      description3: "",
-    },
-    
   ];
   const [data, setData] = useState(workItems);
-
-  
 
   // Menu items for Homepage Two
   const menuItemTwo = [
@@ -178,8 +229,6 @@ const AllData = () => {
       icon: <RiContactsBookLine />,
     },
   ];
-
- 
 
   // serviceArray items for about page
   const serviceArray = [
@@ -221,16 +270,22 @@ const AllData = () => {
   ];
   // experiencesArray items for Resume page
   const experiencesArray = [
-
     {
       id: 1,
-      date: "2022 - Present",
+      date: "2023 - Present",
+      title: "UX/UI Designer",
+      place: "XpandIt",
+      bg: "#EEF5FA",
+    },
+    {
+      id: 2,
+      date: "2022 - 2023",
       title: "UX/UI Designer",
       place: "Fidelidade",
       bg: "#F2F4FF",
     },
     {
-      id: 2,
+      id: 3,
       date: "2019 - 2021",
       title: "HR Consultant",
       place: "Randstad & Dixtior",

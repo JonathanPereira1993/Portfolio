@@ -1,7 +1,9 @@
 import React from "react";
-import cvFile from "../assets/CVBrunaCalado.pdf";
+import cvFile from "../assets/BrunaCalado_CV.pdf";
 import {
+  FaBehance,
   FaCalendarAlt,
+  FaDribbble,
   FaEnvelopeOpenText,
   FaLinkedinIn,
   FaMapMarkerAlt,
@@ -37,8 +39,28 @@ const HomeCard = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <span className="socialbtn text-[#0072b1]">
+              <span className="socialbtn text-[#0a66c2]">
                 <FaLinkedinIn />
+              </span>
+            </a>
+            {/* Dribble link add here */}
+            <a
+              href="https://dribbble.com/brunacalado"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="socialbtn text-[#ff87dd]">
+                <FaDribbble />
+              </span>
+            </a>
+            {/* Dribble link add here */}
+            <a
+              href="https://www.behance.net/brunacalado5"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="socialbtn text-[#0c57ff]">
+                <FaBehance />
               </span>
             </a>
           </div>

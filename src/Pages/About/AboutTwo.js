@@ -46,14 +46,14 @@ const AboutTwo = () => {
               <div className="col-span-12 space-y-2.5">
                 <div className="lg:mr-16">
                   <p className="text-gray-lite  dark:text-color-910 leading-7">
-                    Hi there! My name is Bruna, and I am a UX/UI Designer at
-                    Fidelidade. As a designer, my passion is creating intuitive
-                    and effective user experiences. I believe that the key to
-                    great design is putting the user at the center of everything
-                    we do. Through my work, I strive to create products and
-                    interfaces that are not only beautiful, but also easy to use
-                    and understand. Thank you for taking the time to view my
-                    portfolio, and I hope you enjoy exploring my work!
+                    Hi there! My name is Bruna, and I am a UX/UI Designer. As a
+                    designer, my passion is creating intuitive and effective
+                    user experiences. I believe that the key to great design is
+                    putting the user at the center of everything we do. Through
+                    my work, I strive to create products and interfaces that are
+                    not only beautiful, but also easy to use and understand.
+                    Thank you for taking the time to view my portfolio, and I
+                    hope you enjoy exploring my work!
                   </p>
                 </div>
               </div>

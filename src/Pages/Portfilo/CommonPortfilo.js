@@ -71,19 +71,27 @@ const CommonPortfilo = ({ condition, items }) => {
                 </li>
                 <li
                   className={`${
-                    test === "Academic" ? "text-[#FA5252]" : "fillter-btn"
+                    test === "UX/UI" ? "text-[#FA5252]" : "fillter-btn"
                   } mr-4 md:mx-4`}
-                  onClick={() => handleSearch("Academic")}
+                  onClick={() => handleSearch("UX/UI")}
                 >
-                  Academic
+                  UX/UI
                 </li>
                 <li
                   className={`${
-                    test === "Professional" ? "text-[#FA5252]" : "fillter-btn ml-0"
+                    test === "UX" ? "text-[#FA5252]" : "fillter-btn ml-0"
                   } mr-4 md:mx-4`}
-                  onClick={() => handleSearch("Professional")}
+                  onClick={() => handleSearch("UX")}
                 >
-                  Professional
+                  UX
+                </li>
+                <li
+                  className={`${
+                    test === "UI" ? "text-[#FA5252]" : "fillter-btn ml-0"
+                  } mr-4 md:mx-4`}
+                  onClick={() => handleSearch("UI")}
+                >
+                  UI
                 </li>
               </ul>
 
@@ -145,25 +153,28 @@ const CommonPortfilo = ({ condition, items }) => {
                     className="text-7xl cursor-pointer  absolute right-2 -top-12 md:-right-10 md:-top-6 z-50  text-white transition transform hover:rotate-45 duration-300 ease-in-out "
                   />
                   <h2 className="text-[#ef4060] dark:hover:text-[#FA5252] text-4xl text-center font-bold">
-                    {singleData.title} 
+                    {singleData.title}
                   </h2>
                   <div className="grid grid-cols-1 lg:grid-cols-2 my-6">
                     <div className="space-y-2">
-                      <p className="dark:text-white flex items-center text-[15px]  sm:text-lg ">
+                      <p className="dark:text-white mb-4 flex items-center text-[15px]  sm:text-lg ">
                         <FiFilePlus className="sm:text-lg hidden sm:block mr-2  md:text-xl" />
                         Project :&nbsp;{" "}
-                        <span className="font-medium "> {singleData?.project}</span>
+                        <span className="font-medium ">
+                          {" "}
+                          {singleData?.project}
+                        </span>
                       </p>
                       <p className="dark:text-white flex items-center text-[15px]  sm:text-lg ">
                         <FiCode className="text-lg mr-2 hidden sm:block " />
-                        Langages :&nbsp;
+                        Languages :&nbsp;
                         <span className="font-medium ">
                           {singleData?.langages}
                         </span>
                       </p>
                     </div>
-                    <div className="space-y-2">
-                      <p className="dark:text-white flex items-center mt-2 lg:mt-0 text-[15px]  sm:text-lg ">
+                    <div className="space-y-2 mb-4">
+                      <p className="dark:text-white mb-4 flex items-center mt-2 lg:mt-0 text-[15px]  sm:text-lg ">
                         <FiUser className="text-lg mr-2 hidden sm:block" />
                         Client :&nbsp;
                         <span className="font-medium ">
@@ -186,7 +197,7 @@ const CommonPortfilo = ({ condition, items }) => {
                     </div>
                   </div>
                   <h2 className="dark:text-white mb-4 font-medium	">
-                  {singleData?.descriptionTitle}
+                    {singleData?.descriptionTitle}
                   </h2>
                   <p className="dark:text-white mb-2 text-2line font-normal text-[15px] sm:text-sm  ">
                     {singleData?.description1}

@@ -49,12 +49,12 @@ const ResumeTwo = () => {
 
                 <div className="flex gap-y-5 gap-x-2.5 flex-wrap">
                   <button className="resume-btn">Figma</button>
-                  <button className="resume-btn">Jira</button>
+                  <button className="resume-btn">Adobe XD</button>
                   <button className="resume-btn">Sketch</button>
                   <button className="resume-btn">Invision</button>
-                  <button className="resume-btn">Confluences</button>
-                  <button className="resume-btn">Photoshop</button>
-                  <button className="resume-btn">Illustrator</button>
+                  <button className="resume-btn">Azure DevOps</button>
+                  <button className="resume-btn">Jira</button>
+                  <button className="resume-btn">Confluence</button>
                   <button className="resume-btn">Miro</button>
                   <button className="resume-btn">Excel</button>
                 </div>
